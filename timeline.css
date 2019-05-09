@@ -1,0 +1,320 @@
+body,
+html {
+  margin: 0;
+  font-family: "Heebo", sans-serif;
+  background-color: #0c8e15;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+h1 {
+  color: #b41730;
+}
+
+.skilt {
+  animation: pulse 1s ease infinite;
+  transform-origin: center center;
+  transform-box: fill-box;
+}
+.station1 {
+  animation: slidein1 4s ease-in forwards;
+}
+.station2 {
+  animation: slidein2 4s ease-in forwards;
+}
+.station3 {
+  animation: slidein3 4s ease-in forwards;
+}
+.station4 {
+  animation: slidein4 4s ease-in forwards;
+}
+.station5 {
+  animation: slidein5 4s ease-in forwards;
+}
+.station6 {
+  animation: slidein6 4s ease-in forwards;
+}
+.station7 {
+  animation: slidein7 4s ease-in forwards;
+}
+.station8 {
+  animation: slidein8 4s ease-in forwards;
+}
+.station9 {
+  animation: slidein9 4s ease-in forwards;
+}
+.station10 {
+  animation: slidein10 4s ease-in forwards;
+}
+.station11 {
+  animation: slidein11 4s ease-in forwards;
+}
+.station12 {
+  animation: slidein12 4s ease-in forwards;
+}
+.station13 {
+  animation: slidein13 4s ease-in 1;
+}
+
+/*Animation for train to move*/
+
+@keyframes slidein1 {
+  2% {
+    transform: translateX(-10px);
+  }
+
+  100% {
+    transform: translateX(400px);
+  }
+}
+@keyframes slidein2 {
+  0% {
+    transform: translateX(400px);
+  }
+
+  100% {
+    transform: translateX(810px);
+  }
+}
+@keyframes slidein3 {
+  0% {
+    transform: translateX(810px);
+  }
+
+  100% {
+    transform: translateX(1210px);
+  }
+}
+@keyframes slidein4 {
+  0% {
+    transform: translateX(1210px);
+  }
+
+  100% {
+    transform: translateX(1610px);
+  }
+}
+@keyframes slidein5 {
+  0% {
+    transform: translateX(1610px);
+  }
+
+  100% {
+    transform: translateX(2010px);
+  }
+}
+@keyframes slidein6 {
+  0% {
+    transform: translateX(2010px);
+  }
+
+  100% {
+    transform: translateX(2410px);
+  }
+}
+@keyframes slidein7 {
+  0% {
+    transform: translateX(2410px);
+  }
+
+  100% {
+    transform: translateX(2810px);
+  }
+}
+@keyframes slidein8 {
+  0% {
+    transform: translateX(2810px);
+  }
+
+  100% {
+    transform: translateX(3210px);
+  }
+}
+@keyframes slidein9 {
+  0% {
+    transform: translateX(3210px);
+  }
+
+  100% {
+    transform: translateX(3610px);
+  }
+}
+@keyframes slidein10 {
+  0% {
+    transform: translateX(3610px);
+  }
+
+  100% {
+    transform: translateX(4010px);
+  }
+}
+@keyframes slidein11 {
+  0% {
+    transform: translateX(4010px);
+  }
+
+  100% {
+    transform: translateX(4410px);
+  }
+}
+@keyframes slidein12 {
+  0% {
+    transform: translateX(4410px);
+  }
+
+  100% {
+    transform: translateX(4810px);
+  }
+}
+@keyframes slidein13 {
+  0% {
+    transform: translateX(4810px);
+  }
+
+  100% {
+    transform: translateX(5210px);
+  }
+}
+
+text {
+  cursor: pointer;
+}
+.luk {
+  float: right;
+  margin: 0;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.fakta {
+  border: dotted 2px #00233c;
+  width: 20vh;
+
+  font-size: 11px;
+  padding: 0.5vw;
+  position: absolute;
+  background-color: #d3dcd7;
+  color: #00233c;
+  display: none;
+}
+
+.nyElle {
+  top: 25vw;
+  left: 30vw;
+}
+.vigers {
+  top: 25vw;
+  left: 60vw;
+}
+.dans {
+  top: 25vw;
+  left: 88vw;
+}
+.aalholm {
+  top: 25vw;
+  left: 115vw;
+}
+.kb {
+  top: 25vw;
+  left: 143vw;
+}
+.flint {
+  top: 25vw;
+  left: 170vw;
+}
+.groen {
+  top: 25vw;
+  left: 198vw;
+}
+.fugl {
+  top: 25vw;
+  left: 226vw;
+}
+.nbro {
+  top: 25vw;
+  left: 254vw;
+}
+.bisp {
+  top: 25vw;
+  left: 282vw;
+}
+.ryparken {
+  top: 25vw;
+  left: 310vw;
+}
+.hellerup {
+  top: 25vw;
+  left: 338vw;
+}
+
+.cls-1 {
+  fill: #0e8e15;
+}
+
+.cls-2 {
+  fill: #3f3f3f;
+}
+
+.cls-3 {
+  fill: none;
+  stroke: red;
+  stroke-linejoin: bevel;
+}
+
+.cls-4 {
+  fill: #78bfff;
+}
+
+.cls-5 {
+  fill: #d3dcd7;
+}
+
+.cls-6,
+.cls-9 {
+  fill: #fff;
+}
+
+.cls-7 {
+  fill: #00233c;
+}
+
+.cls-8 {
+  fill: #ffb954;
+}
+
+.cls-9 {
+  font-size: 9.57px;
+  font-family: OpenSans-Bold, Open Sans;
+  font-weight: 700;
+}
+
+.cls-10 {
+  fill: #b41730;
+}
+
+/*SKYERNE*/
+
+#cloud {
+  animation-name: mymove;
+  animation-duration: 100s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mymove {
+  from {
+    transform: translateX(-700px);
+  }
+  to {
+    transform: translateX(1100px);
+  }
+}
